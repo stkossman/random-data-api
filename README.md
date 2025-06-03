@@ -40,9 +40,7 @@ This API provides various endpoints to generate random data, useful for testing,
 <img width="12" />
 <img src="https://skillicons.dev/icons?i=sqlite" height="40" alt="sqlite logo"  />
 </div>
-* * **Faker Gem**: For generating diverse random data.
-* **BCrypt Gem**: For secure password hashing.
-* **JWT Gem**: For JSON Web Token authentication.
+
 ----
 
 ## Getting Started
