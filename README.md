@@ -32,13 +32,17 @@ This API provides various endpoints to generate random data, useful for testing,
 ----
 
 ## Technologies Used
-* **Ruby**: 3.3.x (or latest stable version)
-* **Rails**: ~> 7.1 (or latest stable version)
-* **Faker Gem**: For generating diverse random data.
+<div align="center">
+<img width="12" />
+<img src="https://skillicons.dev/icons?i=ruby" height="40" alt="ruby logo"  />
+<img width="12" />
+<img src="https://skillicons.dev/icons?i=rails" height="40" alt="rails logo"  />
+<img width="12" />
+<img src="https://skillicons.dev/icons?i=sqlite" height="40" alt="sqlite logo"  />
+</div>
+* * **Faker Gem**: For generating diverse random data.
 * **BCrypt Gem**: For secure password hashing.
 * **JWT Gem**: For JSON Web Token authentication.
-* **SQLite3**: Default database for development.
-
 ----
 
 ## Getting Started
