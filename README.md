@@ -253,9 +253,9 @@ You can use Postman to interact with and test all the API endpoints.
 * Download Postman
 * Import Collection
 * Authentication Flow:
-1. First, send a `POST` request to `/api/v1/auth/login` with `username` and `password` in the JSON body to get a JWT token.
-2. Set up a Postman collection variable (e.g., `jwt_token`) to store this token automatically using a "Tests" script on the login request.
-3. For all other protected endpoints, add an `Authorization` header with the value `Bearer {{jwt_token}}` (using your Postman variable).
+  1. First, send a `POST` request to `/api/v1/auth/login` with `username` and `password` in the JSON body to get a JWT token.
+  2. Set up a Postman collection variable (e.g., `jwt_token`) to store this token automatically using a "Tests" script on the login request.
+  3. For all other protected endpoints, add an `Authorization` header with the value `Bearer {{jwt_token}}` (using your Postman variable).
 
 ## Contributing
 Contributions are welcome.
